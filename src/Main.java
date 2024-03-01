@@ -23,9 +23,9 @@ public class Main {
         int n = input.nextInt();
 
         if (asal(n, 2)) {
-            System.out.println("Sayınız Asaldır");
+            System.out.print(n +  " Sayısı Asaldır" );
         } else {
-            System.out.println("Sayınız Asal Değildir");
+            System.out.print(n + " Sayısı Asal Değildir" );
         }
     }
 }
